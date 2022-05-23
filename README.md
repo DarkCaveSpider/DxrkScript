@@ -16,9 +16,13 @@ This command executes the <sub>Infinite Yield Utility GUI</sub> (Admin Commands,
 ### _printc(str,typ)
 Prints a string (str) to DxrkConsole. typ will change
 how the string is displayed in console. use "**def**," "**wrn**," or "**err**" for default, warning, and error respectively.
-Alternatively, you can also give no second argument, which will continue the string on the current line with no formatting. This can be used to recolor the console window! Refer to the [chart](https://user-images.githubusercontent.com/64674644/169839016-5995ebb3-9810-48c1-a404-5ffb001a634f.png);
+Alternatively, you can also give no second argument, which will continue the string on the current line with no formatting. 
+This can be used to recolor the console window! Refer to the [chart](https://user-images.githubusercontent.com/64674644/169839016-5995ebb3-9810-48c1-a404-5ffb001a634f.png);
 A first argument is nessecary.
 
 ### _clrc(bool)
-Clears the console! Set (Bool) to true to have the [startup menu]
+Clears the console! Set (Bool) to true to have the [startup menu](https://user-images.githubusercontent.com/64674644/169841033-f88a94e2-e4c1-4dff-89fc-444e6b2b3725.png) appear. Otherwise, no arguments are necessary.
+
+### _cname(str)
+Changes [name](https://user-images.githubusercontent.com/64674644/169841620-f2ffcf8d-c162-4465-9801-6963b1201f38.png) of the console
 
